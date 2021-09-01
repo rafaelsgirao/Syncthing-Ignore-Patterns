@@ -36,6 +36,9 @@
 (?d)Thumbs.db
 (?d)$RECYCLE.BIN
 (?d)System Volume Information
+*.lnk
+*.msi
+*.exe
 
 // ┌──────────┐
 // │ QNAP QTS │
@@ -74,6 +77,11 @@
 // │ Microsoft Office │
 // └──────────────────┘
 ~*
+
+// ┌──────────────────┐
+// │   LibreOffice 
+// └──────────────────┘
+.~lock.*
 
 // ┌───────────────────────────┐
 // │ Parallels Desktop for Mac │
